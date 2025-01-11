@@ -20,7 +20,7 @@ Quran Player is a simple web application that allows users to listen to Quranic 
 Clone the repository:
 
 ```bash
-https://github.com/basmasalim/Quran-Player.git
+https://github.com/a-hemeda/Quran-Player.git
 ```
 ## Live Demo
 
