@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---------------------------------  icon favicon URL --------------------------------->
+    <link rel="icon" href="./images/icon.png" />
+    <!--------------------------------- Icon BootStab ---------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!---------------------------------  Google Fonts ------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <!---------------------------------  Font Awesome Library ------------------------------- -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--------------------------------- Template CSS File BootStab ---------------------------------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!---------------------------------  Main Template CSS File--------------------------------->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Quran Player</title>
+    <!--------------------------------------owl.carousel.js ----------------------------------->
+  </head>
+  <body>
+    <header class="container">
+      <div>
+        <div class="image">
+          <img src="./images/297770.svg" alt="القران الكريم" />
+        </div>
+        <div class="input">
+          <input
+            class="form-control"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            id="search"
+          />
+        </div>
+        <label id="dark-change" onclick="darkmode()"></label>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="player fixed-bottom">
+          <div class="ayah fs-5 text-center"></div>
+          <audio src="" class="quranPlayer w-100" controls autoplay></audio>
+          <div class="buttons mb-1">
+            <div class="icon next">
+              <i class="fas fa-forward"></i>
+            </div>
+            <div class="icon play mx-4">
+              <i class="fas fa-play"></i>
+            </div>
+            <div class="icon prev">
+              <i class="fa-solid fa-backward"></i>
+            </div>
+          </div>
+        </div>
+        <main>
+          <div class="surahs text-white py-4"></div>
+        </main>
+      </div>
+    </main>
+    <!------------------------------------ Start Scroll To Top ---------------------------------------------->
+
+    <!------------------------------------ End Scroll To Top ---------------------------------------------->
+    <!------------------------------------ java script ---------------------------------------------->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
