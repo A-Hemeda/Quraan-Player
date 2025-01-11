@@ -20,13 +20,13 @@ Quran Player is a simple web application that allows users to listen to Quranic 
 Clone the repository:
 
 ```bash
-https://github.com/a-hemeda/Quran-Player.git
+https://github.com/a-hemeda/Quraan-Player.git
 ```
 ## Live Demo
 
 Experience the Tabs Project in action! Click the link below to access the live demo:
 
-### [Live Demo]( https://a-hemeda.github.io/Quran-Player)
+### [Live Demo]( https://a-hemeda.github.io/Quraan-Player)
 
 Feel free to interact with the project, browse through different jobs, and explore the user-friendly interface. The live demo provides a hands-on experience to see the Tabs Project in action.
 
